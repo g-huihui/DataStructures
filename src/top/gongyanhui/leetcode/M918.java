@@ -7,6 +7,8 @@ package top.gongyanhui.leetcode;
  */
 public class M918 {
 
-//    public int maxSubarraySumCircular(int[] nums) {
-//    }
+    public int maxSubarraySumCircular(int[] nums) {
+
+        return 0;
+    }
 }
