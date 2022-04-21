@@ -2,7 +2,7 @@ package top.gongyanhui.search;
 
 /**
  * @author Gong Yanhui
- * @description TODO
+ * @description 二分查找
  * @date 2022-02-01 17:21
  * Github: fucking-algorithm/算法思维系列/二分查找详解.md
  */

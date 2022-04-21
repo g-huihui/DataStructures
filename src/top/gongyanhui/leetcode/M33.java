@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 33. 搜索旋转排序数组
+ * @description 33. 搜索旋转排序数组
  * @date 2022-02-23 13:21:56
  */
 public class M33 {

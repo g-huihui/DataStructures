@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 82. 删除排序链表中的重复元素 II
+ * @description 82. 删除排序链表中的重复元素 II
  * @date 2022-02-23 15:26:38
  */
 public class M82 {

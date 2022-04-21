@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Gong Yanhui
- * @description TODO 15. 三数之和
+ * @description 15. 三数之和
  * @date 2022-03-11 16:46:37
  */
 public class M15 {

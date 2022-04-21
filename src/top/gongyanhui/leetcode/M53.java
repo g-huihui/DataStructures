@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 53. 最大子序和(简单)
+ * @description 53. 最大子序和(简单)
  * @date 2021-10-26 17:47
  */
 public class M53 {

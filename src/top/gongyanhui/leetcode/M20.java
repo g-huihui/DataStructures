@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author Gong Yanhui
- * @description TODO 20. 有效的括号
+ * @description 20. 有效的括号
  * @date 2022-03-09 17:40:34
  */
 public class M20 {

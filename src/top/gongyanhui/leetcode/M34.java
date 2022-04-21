@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 34. 在排序数组中查找元素的第一个和最后一个位置
+ * @description 34. 在排序数组中查找元素的第一个和最后一个位置
  * @date 2022-02-22 16:15:42
  */
 public class M34 {

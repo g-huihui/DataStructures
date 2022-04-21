@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 844. 比较含退格的字符串
+ * @description 844. 比较含退格的字符串
  * @date 2022-03-02 15:18:59
  */
 public class M844 {

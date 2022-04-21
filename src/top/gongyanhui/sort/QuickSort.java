@@ -2,7 +2,7 @@ package top.gongyanhui.sort;
 
 /**
  * @author Gong Yanhui
- * @description TODO 快速排序
+ * @description 快速排序
  * @date 2022-01-29 10:42
  * https://blog.csdn.net/nrsc272420199/article/details/82587933
  */

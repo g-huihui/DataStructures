@@ -6,7 +6,7 @@ import java.util.concurrent.CyclicBarrier;
 
 /**
  * @author Gong Yanhui
- * @description TODO 网上乱搞的睡眠排序算法
+ * @description 网上乱搞的睡眠排序算法
  * @date 2022-04-08 22:05:58
  */
 public class SleepSort {

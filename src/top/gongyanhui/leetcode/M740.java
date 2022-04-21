@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 740. 删除并获得点数(中等)
+ * @description 740. 删除并获得点数(中等)
  * @date 2021-10-24 13:49
  */
 public class M740 {

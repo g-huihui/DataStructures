@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 45. 跳跃游戏 II(中等)
+ * @description 45. 跳跃游戏 II(中等)
  * @date 2021-10-26 16:55
  */
 public class M45 {

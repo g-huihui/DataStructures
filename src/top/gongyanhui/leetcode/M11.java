@@ -2,7 +2,7 @@ package top.gongyanhui.leetcode;
 
 /**
  * @author Gong Yanhui
- * @description TODO 11. 盛最多水的容器
+ * @description 11. 盛最多水的容器
  * @date 2022-03-02 15:44:28
  */
 public class M11 {
