@@ -10,10 +10,12 @@ public class BinarySearch {
 
     public static void main(String[] args) {
 
-        int[] arr = new int[] {10, 11, 22, 33, 44, 55, 66, 77, 88, 99};
-        int target = 99;
+        int[] arr = new int[] {10, 11, 33, 33, 44, 55, 66, 77, 88, 99};
+        int target = 33;
 
         System.out.println(find(arr, 0, arr.length - 1, target));
+        System.out.println("左侧位置:" + left_find(arr, target));
+        System.out.println("右侧位置:" + right_find(arr, target));
     }
 
     /**
@@ -35,5 +37,47 @@ public class BinarySearch {
             }
         }
         return -1;  //未找到
+    }
+
+    /**
+     * 寻找左侧边界的二分搜索
+     * @return 返回最左侧目标值的索引下标
+     */
+    public static int left_find(int[] arr, int target) {
+        if (arr.length == 0) return -1;
+        int left = 0;
+        int right = arr.length; //注意
+        while (left < right) {  //注意 退出条件即为 left == right
+            int mid = (right - left) / 2 + left;
+            if (arr[mid] == target) {
+                right = mid;
+            } else if (arr[mid] < target) {
+                left = mid + 1;
+            } else if (arr[mid] > target) {
+                right = mid;    //注意
+            }
+        }
+        return left;
+    }
+
+    /**
+     * 寻找右侧边界的二分查找
+     * @return 返回最右侧目标值的索引下标
+     */
+    public static int right_find(int[] arr, int target) {
+        if (arr.length == 0) return -1;
+        int left = 0;
+        int right = arr.length;
+        while (left < right) {
+            int mid = (right - left) / 2 + left;
+            if (arr[mid] == target) {
+                left = mid + 1; //注意
+            } else if (arr[mid] < target) {
+                left = mid + 1;
+            } else if (arr[mid] > target) {
+                right = mid;    //注意
+            }
+        }
+        return left - 1;
     }
 }
