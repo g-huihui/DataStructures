@@ -1,5 +1,7 @@
 package top.gongyanhui.leetcode;
 
+import top.gongyanhui.domain.ListNode;
+
 /**
  * @author Gong Yanhui
  * @description 82. 删除排序链表中的重复元素 II
@@ -41,30 +43,5 @@ public class M82 {
 
         //System.out.println(head);
         System.out.println(deleteDuplicates(head));
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    @Override
-    public String toString() {
-        ListNode cur = next;
-        StringBuilder res = new StringBuilder();
-        res.append(val).append(", ");
-        while (cur != null) {
-            res.append(cur.val).append(", ");
-            if (cur.next != null) {
-                cur = cur.next;
-            } else {
-                break;
-            }
-        }
-        return res.toString();
     }
 }
